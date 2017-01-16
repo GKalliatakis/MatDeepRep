@@ -1,6 +1,5 @@
 # MatDeepRep: Deep representation learning tool for image classification with Matlab
 
-----------
 
 Author: Grigorios Kalliatakis, University of Essex (gkallia@essex.ac.uk)
 

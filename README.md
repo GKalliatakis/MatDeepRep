@@ -19,7 +19,7 @@ For decades, traditional machine learning systems demanded accurate engineering 
 ### Overview
 
 ----------
-MatDeepRep is a Matlab implementation, built on top of Caffe framework, capable of learning deep representations for image classification using the [BVLC caffe matlab interface (matcaffe)](http://caffe.berkeleyvision.org/tutorial/interfaces.html) & various pretrained .caffemodel binaries.
+MatDeepRep is a Matlab plugin , built on top of Caffe framework, capable of learning deep representations for image classification using the [BVLC caffe matlab interface (matcaffe)](http://caffe.berkeleyvision.org/tutorial/interfaces.html) & various pretrained .caffemodel binaries.
 
 ### Paper and Licencing
 

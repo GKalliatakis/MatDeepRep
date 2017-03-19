@@ -33,7 +33,7 @@ If you use this code for your experiments, please cite:
     Detection of Human Rights Violations in Images: Can Convolutional Neural Networks help?
     Computer Vision, Imaging and Computer Graphics Theory and Applications, (VISAPP) Conference, 2017
 
-A copy of the paper will is available at:
+A copy of the paper is available at:
  * [https://arxiv.org/pdf/1703.04103.pdf](https://arxiv.org/pdf/1703.04103.pdf)
 
 This software is released under the BSD licence (refer to the COPYING file for details). This software is for learning purposes, and not meant for any use in production / commercial purposes. We are always interested in how this software is being used, so if you found this software useful or plan to make a release of code based on or using this package, it would be great to hear from you. Similarly, acknowledgements or citations to the above paper are appreciated.

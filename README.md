@@ -46,14 +46,15 @@ The MatDeepRep function requires the Caffe deep learning framework (available fr
 Next, all the latest deep ConvNet models must be downloaded in the required Caffe format from [here](https://docs.google.com/uc?export=download&confirm=WvVf&id=0B98ZKBhlAtp-QUhyaHBnX2NuVU0).
 Please note they must be placed inside the default folder of the Caffe installation named 'models'. The safer option will be to extract the downloaded zip file inside the 'models' folder of the Caffe installation. 
 
-In addition, the datasets should be downloaded and stored in a directory of your choice. However, We must pay attention to the structure of the folders which will contain the raw jpg images. We will need 4 different folders: (1) positive training; (2) negative training; (3) positive test and (4) negative test. This happens in order to be able to evaluate both processes of training and testing in the end. The complete structure of the folder with the name 'datasets' (which needs to be inside the matlab/demo folder) is the following:
+In addition, the datasets should be downloaded and stored in a directory of your choice. However, We must pay attention to the structure of the folders which will contain the raw jpg images. We will need 4 different folders: (1) positive training; (2) negative training; (3) positive test and (4) negative test. This happens in order to be able to evaluate both processes of training and testing in the end. The complete structure of the folder with the name 'datasets' (which needs to be inside the matlab/demo folder) is given by the following example:
 
-    datasets(main folder with all the datasets)
-        dataset_given_as_MatDeepRep_input
-            POS_TRAIN / NEG_TRAIN / POS_TEST / NEG_TEST (can be cars,materials etc.)
-                category_given_as_input
-
-A working path example can be the following: ./datasets/MINC2500/POS_TRAIN/leather
+    datasets/
+        MINC2500/
+            POS_TRAIN/
+                leather/
+                    00001.jpg
+                    00002.jpg
+                    ...
 
 ### Usage & examples
 
